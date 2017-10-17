@@ -25,16 +25,10 @@ typedef void(^PlayVoiceBlock)();
 @property (nonatomic, strong) UNMutableNotificationContent *bestAttemptContent;
 
 @property (nonatomic, strong)AVAudioPlayer *myPlayer;
-
-@property (nonatomic,strong)AVAudioPlayer *movePlayer;
-
 @property (nonatomic, strong) NSString *filePath;
-@property (nonatomic, strong) AVAudioPlayer *player;
 
+// AVSpeechSynthesisVoice 播放完毕之后的回调block
 @property (nonatomic, copy)PlayVoiceBlock finshBlock;
-
-
-@property (strong, nonatomic) AVSpeechSynthesizer *synthesizer;
 
 
 @end
