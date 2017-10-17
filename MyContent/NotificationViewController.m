@@ -1,8 +1,8 @@
 //
 //  NotificationViewController.m
-//  MyContentExtension
+//  MyContent
 //
-//  Created by Zhang Yan on 2017/10/10.
+//  Created by Zhang Yan on 2017/10/17.
 //  Copyright © 2017年 yan. All rights reserved.
 //
 

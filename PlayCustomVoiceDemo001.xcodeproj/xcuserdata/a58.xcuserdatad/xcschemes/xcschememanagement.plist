@@ -4,13 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MyContentExtension.xcscheme</key>
+		<key>MyContent.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>MyServiceExtension.xcscheme</key>
+		<key>MyContentExtension.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
@@ -33,6 +37,16 @@
 			<true/>
 		</dict>
 		<key>373C68991F8C9D0F00E1A7B6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>378DD20B1F96288900111BC9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>37DB3D6C1F95DACA004384EE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
