@@ -31,6 +31,7 @@ typedef void(^PlayVoiceBlock)();
 @property (nonatomic, copy)PlayVoiceBlock finshBlock;
 
 
+
 @end
 
 @implementation NotificationService
@@ -70,18 +71,18 @@ static int lianxunPlay = 1;
     
     
     /** <#                   成功                        #> */
-    // 方式4，语音合成，使用AudioServicesPlayAlertSoundWithCompletion播放，但是时间最多5秒,成功
-//     [self hechengVoiceWithFinshBlock:^{
-//         self.contentHandler(self.bestAttemptContent);
-//     }];
+    // 方式4，语音合成，使用AudioServicesPlayAlertSoundWithCompletion播放,成功
+     [self hechengVoiceWithFinshBlock:^{
+         self.contentHandler(self.bestAttemptContent);
+     }];
     
     
     /** <#                   成功                        #> */
 //    // 方式5，AVSpeechSynthesisVoice使用系统方法，文字转语音播报,成功
-    __weak __typeof(self)weakSelf = self;
-    [self playVoiceWithAVSpeechSynthesisVoiceWithContent:self.bestAttemptContent.body fishBlock:^{
-        weakSelf.contentHandler(self.bestAttemptContent);
-    }];
+//    __weak __typeof(self)weakSelf = self;
+//    [self playVoiceWithAVSpeechSynthesisVoiceWithContent:self.bestAttemptContent.body fishBlock:^{
+//        weakSelf.contentHandler(self.bestAttemptContent);
+//    }];
     
 }
 
