@@ -41,9 +41,11 @@
 		373C68B71F8C9EBB00E1A7B6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C687F1F8C9B5000E1A7B6 /* UIKit.framework */; };
 		373C68B81F8C9EC500E1A7B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C68811F8C9B5C00E1A7B6 /* Foundation.framework */; };
 		373C68B91F8C9ECF00E1A7B6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C68831F8C9BB100E1A7B6 /* CoreGraphics.framework */; };
+		378C99B01FA2121700D04A59 /* 36.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 378C99AF1FA2121700D04A59 /* 36.m4a */; };
+		378C99B11FA2121700D04A59 /* 36.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 378C99AF1FA2121700D04A59 /* 36.m4a */; };
+		378C99B21FA2121700D04A59 /* 36.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 378C99AF1FA2121700D04A59 /* 36.m4a */; };
 		378DD20D1F96288900111BC9 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C689B1F8C9D0F00E1A7B6 /* UserNotifications.framework */; };
 		378DD20E1F96288900111BC9 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373C689D1F8C9D0F00E1A7B6 /* UserNotificationsUI.framework */; };
-		378DD2121F96288900111BC9 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 378DD2111F96288900111BC9 /* NotificationViewController.m */; };
 		378DD2151F96288900111BC9 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 378DD2131F96288900111BC9 /* MainInterface.storyboard */; };
 		378DD2191F96288900111BC9 /* MyContent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 378DD20C1F96288900111BC9 /* MyContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		37C407231F8CE94E00BEAD54 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 37C4071C1F8CE94E00BEAD54 /* 1.m4a */; };
@@ -129,6 +131,7 @@
 		373C689B1F8C9D0F00E1A7B6 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		373C689D1F8C9D0F00E1A7B6 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		378A42CA1F8CA9AF00468B29 /* PlayCustomVoiceDemo001.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlayCustomVoiceDemo001.entitlements; sourceTree = "<group>"; };
+		378C99AF1FA2121700D04A59 /* 36.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 36.m4a; sourceTree = "<group>"; };
 		378DD20C1F96288900111BC9 /* MyContent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MyContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		378DD2101F96288900111BC9 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
 		378DD2111F96288900111BC9 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
@@ -228,6 +231,7 @@
 				373C68561F8C9A9600E1A7B6 /* AppDelegate.m */,
 				373C68581F8C9A9600E1A7B6 /* ViewController.h */,
 				373C68591F8C9A9600E1A7B6 /* ViewController.m */,
+				378C99AF1FA2121700D04A59 /* 36.m4a */,
 				373C685B1F8C9A9600E1A7B6 /* Main.storyboard */,
 				373C685E1F8C9A9600E1A7B6 /* Assets.xcassets */,
 				373C68601F8C9A9600E1A7B6 /* LaunchScreen.storyboard */,
@@ -420,6 +424,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				378C99B01FA2121700D04A59 /* 36.m4a in Resources */,
 				37C407321F8CE94E00BEAD54 /* 6.m4a in Resources */,
 				37C407291F8CE94E00BEAD54 /* 3.m4a in Resources */,
 				37C4072C1F8CE94E00BEAD54 /* 4.m4a in Resources */,
@@ -444,6 +449,7 @@
 				37C4072D1F8CE94E00BEAD54 /* 4.m4a in Resources */,
 				37C407361F8CE94E00BEAD54 /* daozhang.m4a in Resources */,
 				37DCFAFD1F8CEF2A00D4B986 /* 支付宝.m4a in Resources */,
+				378C99B11FA2121700D04A59 /* 36.m4a in Resources */,
 				37C407241F8CE94E00BEAD54 /* 1.m4a in Resources */,
 				37C407331F8CE94E00BEAD54 /* 6.m4a in Resources */,
 				37C407271F8CE94E00BEAD54 /* 2.m4a in Resources */,
@@ -456,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				378DD2151F96288900111BC9 /* MainInterface.storyboard in Resources */,
+				378C99B21FA2121700D04A59 /* 36.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,7 +491,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				378DD2121F96288900111BC9 /* NotificationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -634,7 +640,7 @@
 					"$(PROJECT_DIR)/PlayCustomVoiceDemo001/lib",
 				);
 				INFOPLIST_FILE = PlayCustomVoiceDemo001/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.PushDemo0011;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -654,7 +660,7 @@
 					"$(PROJECT_DIR)/PlayCustomVoiceDemo001/lib",
 				);
 				INFOPLIST_FILE = PlayCustomVoiceDemo001/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.PushDemo0011;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -703,6 +709,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ED529Z92CK;
 				INFOPLIST_FILE = MyContent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.PushDemo0011.MyContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -716,6 +723,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = ED529Z92CK;
 				INFOPLIST_FILE = MyContent/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yanzhang.PushDemo0011.MyContent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -760,6 +768,7 @@
 				378DD21B1F96288900111BC9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
